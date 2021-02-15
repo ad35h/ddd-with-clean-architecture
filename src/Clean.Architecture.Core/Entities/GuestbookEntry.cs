@@ -5,7 +5,7 @@ namespace Clean.Architecture.Core.Entities
 {
     public class GuestbookEntry : BaseEntity
     {
-        public string Email { get; set; }
+        public string EmailAddress { get; set; }
         public string Message { get; set; }
         public DateTimeOffset DateTimeCreated { get; set; }
         public GuestbookEntry()
